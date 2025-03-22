@@ -1,0 +1,23 @@
+Example for Writing Data to File
+
+#include <stdio.h>
+
+int main()
+
+{
+
+FILE *Fp;
+
+char ch=‘Functional Programming’;
+
+Fp=fopen("name.txt",“w"); \\ for only write data to file
+
+putc (c,Fp);
+
+Fprintf(Fp,”%c”,ch);
+
+fclose(Fp);
+
+Return 0;
+
+}
