@@ -1,0 +1,19 @@
+Example for Reading Data from File
+
+#include<stdio.h>
+
+int main()
+
+{
+
+FILE *Fp;
+
+Fp=fopen("name.txt","r"); \\ for only read data from file
+
+getc (Fp);
+
+fclose();
+
+return0;
+
+}
